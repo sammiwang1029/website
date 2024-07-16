@@ -582,11 +582,10 @@ w-100{
 }
 .artwork-secion h4 span{
   display: inline-flex;
-  background: #db9365;
+  background: #ffb942;
   width: 40px;
   height: 6px;
   margin-bottom: 4px;
-  border-radius: 6px;
 }
 .artwork-secion h4 span.left{
   margin-right: 20px;
@@ -716,7 +715,7 @@ w-100{
 
 @media screen and (max-device-width: 480px) {
   p{
-    font-size: 3.7333333333vw;
+    font-size: 4.266666666666667vw;
   }
   .project-name h2{
     font-size: 4.8vw;/*18px*/
@@ -739,8 +738,15 @@ w-100{
   .artwork-secion h4{
     margin: 2rem;
   }
+  .edu .timeline-name-yr,
+  .edu .timeline-info{
+    margin:0 0 4.2666666667vw 5.3333333333vw;
+  }
+  .skills-section .info{
+    margin:0 0 4.2666666667vw 5.3333333333vw;
+  }
   .exp .timeline-name-yr{
-    margin:0 0 1rem;
+    margin:0 0 4.2666666667vw;
   }
   .edu{
     margin-bottom: 10.6666666667vw;
