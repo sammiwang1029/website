@@ -165,13 +165,16 @@ w-100{
 .about-text {
   margin-top: 1.25rem;
 }
+.about-text .features p{
+  text-indent: -1.25rem;/*-5.3333333333vw;*/
+  margin-left: 1.375rem/*5.8666666667vw;*/
+}
 .about-text .features p .spot{
   background: #ffb942;
   border-radius: 20px;
   width: 12px;
   height: 12px;
-  display: inline-flex;
-  align-items: center;
+  display: inline-block;
   margin-right: 10px;
 }
 .download-btn{
@@ -518,20 +521,22 @@ w-100{
 .small-text{
   font-size: 18px;
 }
-.project-name h2{
-  text-align: center;
+.project-name h4{
   margin:20px 0;
-  color:#db9465;
-  font-size: 28px;
+  font-size: 20px;
 }
 .img-title{
   border-left: 6px solid #4150cd; 
   margin: 2.5rem 0 .5rem;
 }
-.img-title h4{
+.img-title h5{
   color:#595959;
 }
-
+.img-title h5 span{
+  margin-left: 10px;
+  color: #565656;
+  font-weight: 500;
+}
 .dropdown-menu{
   position: absolute;
   min-width: 160px;
@@ -607,7 +612,40 @@ w-100{
   margin-bottom: .5rem;
   color:#8c8c8c
 }
+.describe{
+  margin-top: 1rem;
+}
+.ps-wp .ps-section{
+  border-radius: 10px;
+  padding: 20px;
+  width: 96%;
+  margin: 30px auto;
+  border: 2px solid #a9b2ff;
+}
+.ps-wp .ps-section h5{
+  color: #4b5eff;
+}
+.ps-wp .ps-section ul li{
+  margin-bottom: .5rem;
+}
+.ps-wp .ps-section ul li .spot{
+  background: #a9b2ff;
+  border-radius: 20px;
+  width: 12px;
+  height: 12px;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
 
+.img-fluid{
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+.artwork-text{
+  text-align: center;
+}
 @media (min-width: 1270px) {
   .owl-theme .owl-dots {
     position: relative;
@@ -732,7 +770,7 @@ w-100{
   .about-text-section{
     padding:0 15px;
   }
-  .img-title h4{
+  .img-title h5{
     font-size: 4.5333333333vw;
   }
   .artwork-secion h4{
